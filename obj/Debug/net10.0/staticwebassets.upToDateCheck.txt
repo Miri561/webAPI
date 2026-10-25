@@ -1,0 +1,8 @@
+wwwroot\Home.html
+wwwroot\Home.js
+wwwroot\Update.html
+wwwroot\Update.js
+M:\web\MyProject\MyProject\wwwroot\Home.html
+M:\web\MyProject\MyProject\wwwroot\Home.js
+M:\web\MyProject\MyProject\wwwroot\Update.html
+M:\web\MyProject\MyProject\wwwroot\Update.js
