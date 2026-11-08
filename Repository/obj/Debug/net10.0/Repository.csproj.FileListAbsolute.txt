@@ -1,0 +1,15 @@
+M:\web\MyProject\Repository\bin\Debug\net10.0\Repository.deps.json
+M:\web\MyProject\Repository\bin\Debug\net10.0\Repository.dll
+M:\web\MyProject\Repository\bin\Debug\net10.0\Repository.pdb
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.AssemblyInfoInputs.cache
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.AssemblyInfo.cs
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.csproj.CoreCompileInputs.cache
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.dll
+M:\web\MyProject\Repository\obj\Debug\net10.0\refint\Repository.dll
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.pdb
+M:\web\MyProject\Repository\obj\Debug\net10.0\ref\Repository.dll
+M:\web\MyProject\Repository\bin\Debug\net10.0\Entities.dll
+M:\web\MyProject\Repository\bin\Debug\net10.0\Entities.pdb
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.csproj.AssemblyReference.cache
+M:\web\MyProject\Repository\obj\Debug\net10.0\Repository.csproj.Up2Date
