@@ -7,6 +7,7 @@ namespace MyProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //The assignment asks to split the code into four projects: the API, Entities, Services and Repositories
     public class UsersController : ControllerBase
     {
         // GET: api/<UsersController>
@@ -50,6 +51,7 @@ namespace MyProject.Controllers
 
         }
 
+       //The assignment asks login with a wrong password to return 204 NoContent: what should the end of this method return instead of NotFound()?
        [HttpPost("Login")]
         public ActionResult<Users> PostLogIn([FromBody] Users user2)
         {
@@ -71,6 +73,7 @@ namespace MyProject.Controllers
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
+        //The assignment asks PUT to return Ok(): change void to IActionResult and return Ok() at the end
         public void Put(int id, [FromBody] Users putuser)
         {
             string textToReplace = string.Empty;

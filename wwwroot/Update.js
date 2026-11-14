@@ -5,6 +5,7 @@ const lastName= document.querySelector("#lastName")
         //id: document.querySelector("#id").value,
 const useremail= document.querySelector("#useremail")
 const password = document.querySelector("#password")
+//Is data declared anywhere? Add const data before this line.
 data = JSON.parse(sessionStorage.getItem("currentUser"))
 firstName.value = data.firstName
 lastName.value = data.lastName
@@ -34,6 +35,7 @@ const update = async () => {
     }
     else
         alert("grate update!")
+    //responsePut.json is a function: call it and await it, e.g. await responsePut.json()
     const dataPost = await responsePut.json;
 
 
