@@ -1,5 +1,6 @@
 ﻿
 
+//In JavaScript, function names are camelCase: signIn, logIn
 const SignIn = async () => {
     const userData = {
         firstName: document.querySelector("#firstName").value,
