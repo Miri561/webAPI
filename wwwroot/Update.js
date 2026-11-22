@@ -34,6 +34,7 @@ const update = async () => {
     }
     else
         alert("grate update!")
+    //Is json() missing its brackets? Without () the data is not read
     const dataPost = await responsePut.json;
 
 
