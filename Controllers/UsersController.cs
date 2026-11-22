@@ -7,6 +7,7 @@ namespace MyProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //The assignment asks to split the code into four projects: the API, Entities, Services and Repositories
     public class UsersController : ControllerBase
     {
         // GET: api/<UsersController>
@@ -18,6 +19,7 @@ namespace MyProject.Controllers
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
+        //Is the loop still reading after the user is found? A break is needed once the user is found
         public ActionResult<Users> Get(int id)
         {
             using (StreamReader reader = System.IO.File.OpenText(FilePath))
@@ -41,6 +43,7 @@ namespace MyProject.Controllers
         public ActionResult<Users> Post([FromBody] Users user)
         {
             
+            //Where is the password strength check for POST? A weak password (score below 3) should return 400 here, before the user is saved to the file
             int numberOfUsers = System.IO.File.ReadLines(FilePath).Count();
             user.id = numberOfUsers + 1;
             string userJson = JsonSerializer.Serialize(user);
@@ -65,12 +68,15 @@ namespace MyProject.Controllers
 
                 }
             }
+            //The assignment asks a wrong login to return 204 NoContent: what should this line return?
             return NotFound();
 
         }
 
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
+        //The assignment asks PUT to return Ok(): change void to IActionResult and return Ok() at the end
+        //Where is the password strength check for PUT? A weak password (score below 3) should return 400 here, before the user is updated
         public void Put(int id, [FromBody] Users putuser)
         {
             string textToReplace = string.Empty;
